@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab232a79-1edb-4e40-9e1c-028d57a8dadc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/validation.java" afterDir="false" />
+    <list default="true" id="ab232a79-1edb-4e40-9e1c-028d57a8dadc" name="Changes" comment="io">
+      <change afterPath="$PROJECT_DIR$/src/roman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -30,16 +30,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/kamil/IdeaProjects/calc_java",
-    "onboarding.tips.debug.path": "/home/kamil/github/java/calc_java/src/Main.java",
-    "settings.editor.selected.configurable": "project.propCompiler"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/kamil/IdeaProjects/calc_java&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/kamil/github/java/calc_java/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -63,6 +63,19 @@
       <option name="presentableId" value="Default" />
       <updated>1687546557977</updated>
     </task>
+    <task id="LOCAL-00001" summary="io">
+      <option name="closed" value="true" />
+      <created>1687641540313</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687641540313</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="io" />
+    <option name="LAST_COMMIT_MESSAGE" value="io" />
   </component>
 </project>
