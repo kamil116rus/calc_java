@@ -6,7 +6,7 @@ public class Main {
   public static void main(String[] args) {
     // System.out.println(Roman.stringFromInt(85));
     boolean go = true;
-    while (go) {
+    while (go) { // я сначала зациклил а потом увидел строки о прекращении работы.
       System.out.println("Введите выражение или нажмите ENTER :");
       Scanner scanner = new Scanner(System.in);
       String input = scanner.nextLine();
