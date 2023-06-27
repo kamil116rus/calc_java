@@ -17,7 +17,7 @@ public class Roman {
         }
         return temp;
     }
-    static String stringFromInt(int value) {
+    static String stringFromInt(int value) { // работает правильно до 390, выше покажет не правильно
         String temp = new String();
         while (value > 0) {
             if (value == 100) {
