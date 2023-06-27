@@ -1,4 +1,5 @@
 import java.io.IOException;
+import java.util.Objects;
 import java.util.Scanner;
 
 public class Main {
@@ -37,7 +38,7 @@ public class Main {
             || (!Roman.itsRoman(tokens[0]) && Roman.itsRoman(tokens[1]))) {
             throw new IOException(" - либо арабские цисла , либо римскиею");
         }
-        switch (operator) {
+        switch (Objects.requireNonNull(operator)) {
                 case "*" -> res = operand1.value * operand2.value;
                 case "+" -> res = operand1.value + operand2.value;
                 case "-" -> res = operand1.value - operand2.value;
@@ -83,7 +84,7 @@ public class Main {
     }
 
 
-    static enum system {
+     enum system {
         ARABIC, ROMAN
     }
 }
