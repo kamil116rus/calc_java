@@ -43,8 +43,7 @@ public class Main {
                 case "-" -> res = operand1.value - operand2.value;
                 case "/" -> res = operand1.value / operand2.value;
             }
-
-        return Integer.toString(res);
+    return operand1.system == system.ROMAN ? Roman.stringFromInt(res):Integer.toString(res);
     }
 
 
@@ -59,19 +58,21 @@ public class Main {
     //
     //      return tokens;
     //    }
-    static String getoperator(String input)  {
-        String operator = null;
-        if (input.contains("*"))
-            operator = "*";
-        else if (input.contains("/"))
-            operator = "/";
-        else if (input.contains("-"))
-            operator = "-";
-        else if (input.contains("+"))
-            operator = "+";
+    static String getoperator(String  input) {
+        String operator;
+        if(input.contains("*")) operator = "*";
+        else if(input.contains("/")) operator = "/";
+        else if (input.contains("-")) operator = "-";
+        else if (input.contains("+")) operator = "+";
+        else  operator = null;
         return operator;
     }
 
+
+    static class Operand {
+        int value;
+        system system;
+    }
     static boolean itsDigit(String input) {
         boolean temp = true;
         for (int i = 0; i < input.length(); i++) {
@@ -81,12 +82,9 @@ public class Main {
         return temp;
     }
 
-    static class Operand {
-        int value;
-        system system;
-    }
 
     static enum system {
         ARABIC, ROMAN
     }
 }
+
