@@ -78,16 +78,25 @@ public class Main {
       }
 
       static String getoperator(String input) {
-        String operator;
-        if (input.contains("*"))
+        String operator = null;
+        int count = 0;
+        if (input.contains("*")) {
           operator = "*";
-        else if (input.contains("/"))
+          count++;
+        }
+        if (input.contains("/")) {
           operator = "/";
-        else if (input.contains("-"))
+          count++;
+        }
+        if (input.contains("-")) {
           operator = "-";
-        else if (input.contains("+"))
+          count++;
+        }
+        if (input.contains("+")) {
           operator = "+";
-        else
+          count++;
+        }
+        if (count != 1)
           operator = null;
         return operator;
       }
