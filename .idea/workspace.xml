@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab232a79-1edb-4e40-9e1c-028d57a8dadc" name="Changes" comment="Исправлено вывод Римских цифр, а так же user friendly вывод ошибок">
+    <list default="true" id="ab232a79-1edb-4e40-9e1c-028d57a8dadc" name="Changes" comment="Исправлено ввод нескольких операторов">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Roman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Roman.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +33,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
-    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/home/kamil/github/java/calc_java/src/Main.java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/kamil/github/java/calc_java",
+    "onboarding.tips.debug.path": "/home/kamil/github/java/calc_java/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -68,6 +74,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687546557977</updated>
+      <workItem from="1688073935696" duration="52000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <option name="closed" value="true" />
@@ -149,7 +156,23 @@
       <option name="project" value="LOCAL" />
       <updated>1688052537849</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Исправлено вывод Римских цифр, а так же user friendly вывод ошибок">
+      <option name="closed" value="true" />
+      <created>1688054142439</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688054142439</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Исправлено ввод нескольких операторов">
+      <option name="closed" value="true" />
+      <created>1688054190822</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1688054190822</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -157,6 +180,7 @@
     <MESSAGE value="минимально рабочая версия" />
     <MESSAGE value="Исправлено вывод Римских цифр, а так же user friendly dsdjl jib,jr" />
     <MESSAGE value="Исправлено вывод Римских цифр, а так же user friendly вывод ошибок" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправлено вывод Римских цифр, а так же user friendly вывод ошибок" />
+    <MESSAGE value="Исправлено ввод нескольких операторов" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправлено ввод нескольких операторов" />
   </component>
 </project>

@@ -19,7 +19,7 @@ public class Roman {
     }
     return temp;
   }
-  static String stringFromInt(int value) { // работает правильно до 390, выше покажет не правильно
+  static String stringFromInt(int value) { // работает правильно до 390, что достаточно для условий задачи.
     StringBuilder temp = new StringBuilder();
     while (value > 0) {
       if (value >= 100 && value < 390) {
