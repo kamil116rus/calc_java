@@ -56,13 +56,12 @@ public class Main {
                     case "+" -> res = operand1.value + operand2.value;
                     case "-" -> res = operand1.value - operand2.value;
                     case "/" -> res = operand1.value / operand2.value;
-
                 }
             } else {
                 try {
                     throw new IOException();
                 } catch (IOException e) {
-                    error += "\033[91mERROR\033[0m - используются одновременно разные системы счисления";
+                    error += "\033[91mERROR\033[0m - числа должны быть от 1 до 10.";
                 }
             }
         }
