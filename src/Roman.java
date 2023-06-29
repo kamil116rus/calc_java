@@ -22,39 +22,31 @@ public class Roman {
   static String stringFromInt(int value) { // работает правильно до 390, выше покажет не правильно
     StringBuilder temp = new StringBuilder();
     while (value > 0) {
-      while (value >= 100 && value < 390) {
+      if (value >= 100 && value < 390) {
         temp.append("C");
         value -= 100;
-      }
-      if (value >= 90) {
+      } else if (value >= 90) {
         temp.append("XC");
         value -= 90;
-      }
-      if (value >= 50) {
+      } else if (value >= 50) {
         temp.append("L");
         value -= 50;
-      }
-      if (value >= 40) {
+      } else if (value >= 40) {
         temp.append("Xl");
         value -= 40;
-      }
-      while (value >= 10) {
+      } else if (value >= 10) {
         temp.append("X");
         value -= 10;
-      }
-      if (value == 9) {
+      } else if (value == 9) {
         temp.append("IX");
         value -= 9;
-      }
-      if (value >= 5) {
+      } else if (value >= 5) {
         temp.append("V");
         value -= 5;
-      }
-      if (value >= 4) {
+      } else if (value == 4) {
         temp.append("IV");
         value -= 4;
-      }
-      if (value >= 1) {
+      } else {
         temp.append("I");
         value -= 1;
       }
